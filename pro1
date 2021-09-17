@@ -1,1 +1,6 @@
 #hello
+print("hello world") 
+print("Marvin")
+print("Dickson")
+print("Tina")
+print("Caleb")
