@@ -1,5 +1,10 @@
 def function1():
-    print('This text represent the content of function 1')  #To be edited by member 1, Replace this line with your actual function code
+    print('hello world')
+    print('Marvin')    
+    print('Dickson')
+    print('Tina')
+    print('Caleb')
+    print('Anson')    
     
 
 def function2():
