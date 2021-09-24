@@ -20,7 +20,11 @@ def function3():
     a=int(a)
     print(a*a)
 def function4():
-    print('This text represent the content of function 4')  #To be edited by member 4, Replace this line with your actual function code
+    a = 5
+    b = 7 
+    if a < b:
+     print('a=5 b=7')
+     print('a is smaller than b')
 
 
 #The Main function edited by Group leader
