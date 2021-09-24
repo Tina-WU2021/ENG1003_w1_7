@@ -16,9 +16,9 @@ def function2():
 
 
 def function3():
-a=input("please input a number:")
-a=int(a)
-print(a*a)
+    a=input("please input a number:")
+    a=int(a)
+    print(a*a)
 def function4():
     print('This text represent the content of function 4')  #To be edited by member 4, Replace this line with your actual function code
 
