@@ -1,5 +1,4 @@
 a=5
 b=7
 if a<b:
- print('a is smaller than b')
- 
+ print('a is smaller than b') 
