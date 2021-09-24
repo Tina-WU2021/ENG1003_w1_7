@@ -8,7 +8,11 @@ def function1():
     
 
 def function2():
-    print('This text represent the content of function 2')  #To be edited by member 2, Replace this line with your actual function code
+    a = 5 
+    b = 7 
+    c = 9
+    sum = a + b + c
+    print(sum)
 
 
 def function3():
