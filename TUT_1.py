@@ -18,12 +18,14 @@ def function2():
 def function3():
     a= 5
     print(a*a)
+
 def function4():
     a = 5
     b = 7 
     if a < b:
-     print('a is smaller than b')
-    else print ('a is bigger than b')
+        print('a is smaller than b')
+    else: 
+        print('a is larger than b')
 
 
 #The Main function edited by Group leader
