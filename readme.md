@@ -47,9 +47,9 @@
 
 
 ## Task1
-<a href="Task1.pdf"><strong>Tutorial Task</strong></a> - <a href="Task1.pdf"><strong>Step-by-Step Instruction</strong></a>
+<a href="Task1.pdf"><strong>Tutorial Task</strong></a> - <a href="Task1.pdf"><strong></strong></a>
 
-<a href="Lecture Notes/Week 6 Design goals (Compulsory).pdf"><strong>Compulsory Tasks</strong></a>  -  <strong>[Tutorial link](https://youtu.be/PRKLhcG2kB0)</strong>
+<a href="Task1.pdf"><strong>Compulsory Tasks</strong></a>  -  <strong>[Tutorial link](file:///C:/Users/wxt03/Desktop/Task1.pdf)</strong>
 
 <a href="Lecture Notes/Week 6 Additional Tasks.pdf"><strong>Additional Tasks</strong></a>
 
