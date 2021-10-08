@@ -28,6 +28,53 @@ def function4():
         print('a is larger than b')
 
 
+def advanced_TowelBuilder():  
+    a = input("input:")
+    a=int(a)
+    i = 0
+    while i < a:
+        print('xxx')
+        if (i == a):
+          break
+        i += 1
+
+
+def advanced_AdditionCalculator():
+    a=input('Please input a int:')
+    a=int(a)
+    b=input('Please input another int:')
+    b=int(b)
+    c=a+b
+    print('The final result is',c)
+    
+    
+def advanced_ReversedList(): 
+    a=input('The list length is:')
+    a=int(a)
+    while 0 < a:
+        print(a)
+        if a == 0:
+         break
+        a -= 1
+    
+def advanced_SquarePrinter():     
+    x=input('Square Size:')
+    x=int(x)
+    i=0
+    j=0
+    while i<x:
+        j=0
+        print(end="\n")
+        if x==i:
+         break
+        while j<x:
+         print('[]',end='')
+         j += 1
+         if j==x:
+            break
+        i += 1
+    
+
 #The Main function edited by Group leader
 print('This is ENG1003'' Week 1 Tutorial Programming Task')
 inp = input('Enter the function number to be executed: ')   #Ask for an integer
