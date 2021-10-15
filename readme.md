@@ -9,7 +9,7 @@
   <summary><h2 style="display: inline-block">Overview</h2></summary>
   <ol>
     <li>
-      <a href="# of Path Planning to aviation engineering">Background of Path Planning to aviation engineering</a>
+      <a href="# of Path Planning to aviation engineering"> of Path Planning to aviation engineering</a>
     </li>
     <li>
       <a href="#Theory of the Path planning Algorithm">Theory of the Path planning Algorithm</a>
