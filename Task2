@@ -57,6 +57,18 @@ class AStarPlanner:
         self.Delta_T_A = 5 # additional time
         
         
+        # 2 variables should meet these conditions:
+        #self.C_T - self.C_F <=30
+        #-0.5*self.C_T + self.C_F <=-30
+        #2*self.C_T + self.C_F >=20
+        #-4*self.C_T + self.C_F >=-220
+        
+        
+        # 4 variables should meet these conditions:
+        #self.C_F * self.Delta_F +  self.C_T * self.Delta_T >=25
+        #self.C_F + self.C_T >=10
+        #self.Delta_F + self.Delta_T >=10
+        #self.Delta_F_A + self.Delta_T_A >=10
      
         list1=[1000]
         for a in range(20):
@@ -77,14 +89,6 @@ class AStarPlanner:
         print (x)
         
 
-        
-        
-
-        # meet the conditions:
-        #self.C_T - self.C_F <=30
-        #-0.5*self.C_T + self.C_F <=-30
-        #2*self.C_T + self.C_F >=20
-        #-4*self.C_T + self.C_F >=-220
 
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 
