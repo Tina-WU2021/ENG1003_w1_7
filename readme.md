@@ -9,7 +9,7 @@
   <summary><h2 style="display: inline-block">Overview</h2></summary>
   <ol>
     <li>
-      <a href="# of Path Planning to aviation engineering"> of Path Planning to aviation engineering</a>
+      <a href="#Background of Path Planning to aviation engineering"> Background of Path Planning to aviation engineering</a>
     </li>
     <li>
       <a href="#Theory of the Path planning Algorithm">Theory of the Path planning Algorithm</a>
@@ -19,7 +19,24 @@
     </li>
     <li>
       <a href="#Task1">Task1</a>
-    </li>    
+    </li>
+    <li>   
+       <a href="#Task2.1">Task2.1</a>
+    </li>
+    <li>    
+       <a href="#Task2.2">Task2.2</a>
+    </li>
+    <li>    
+       <a href="#Task3">Task3</a>
+    </li>
+    <li>
+       <a href="#Task4">Task4</a>
+    </li>
+    <li>
+       <a href="#Reflective essay">Reflective essay</a>
+    </li>
+    <li>
+       <a href="#Refernces">References</a>
   </ol>
 </details>
 
@@ -54,6 +71,18 @@
 <a href="Lecture Notes/Week 6 Additional Tasks.pdf"><strong>Additional Tasks</strong></a>
 
 <a href="Lecture Notes/Report template .pdf"><strong>Final Report Template</strong></a>  -  <strong>[Tutorial link](https://www.youtube.com/watch?v=ECuqb5Tv9qI)</strong>
+## Task2.1
+
+## Task2.2
+
+## Task3
+
+## Task4
+
+## Reflective essay
+
+## References
+
 
 
 
