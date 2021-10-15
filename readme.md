@@ -35,12 +35,12 @@
 ## Introduction of the engineering tools
 **Python**
 
-*about python*
+
 
 
 **Github**
 
-*about github*
+
 <!-- Task1 -->
 
 
