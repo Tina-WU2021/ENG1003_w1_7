@@ -30,7 +30,7 @@ Path planning is a computational problem for a flight to travel from an origin a
 
 <!-- Theory of the Path planning Algorithm -->
 ## Theory of the Path planning Algorithm
-*words waiting to be written*
+Path planning algorithms generate a geometric path, from an initial to a final point, passing through pre-defined via-points, either in the joint space or in the operating space of the robot, while trajectory planning algorithms take a given geometric path and endow it with the time information
 
 <!-- Introduction of the engineering tools -->
 ## Introduction of the engineering tools
