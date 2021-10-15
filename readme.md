@@ -21,22 +21,22 @@
       <a href="#Task1">Task1</a>
     </li>
     <li>   
-       <a href="#Task2.1">Task2.1</a>
+      <a href="#Task2.1">Task2.1</a>
     </li>
     <li>    
-       <a href="#Task2.2">Task2.2</a>
+      <a href="#Task2.2">Task2.2</a>
     </li>
     <li>    
-       <a href="#Task3">Task3</a>
+      <a href="#Task3">Task3</a>
     </li>
     <li>
-       <a href="#Task4">Task4</a>
+      <a href="#Task4">Task4</a>
     </li>
     <li>
-       <a href="#Reflective essay">Reflective essay</a>
+      <a href="#Reflective essay">Reflective essay</a>
     </li>
     <li>
-       <a href="#Refernces">References</a>
+      <a href="#Refernces">References</a>
   </ol>
 </details>
 
