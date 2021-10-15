@@ -56,7 +56,7 @@ class AStarPlanner:
         self.Delta_F_A = 2 # additional fuel
         self.Delta_T_A = 5 # additional time 
         
-        
+        # code from line 50 to line 57 are supposed to be changed to get the final cost
 
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 
