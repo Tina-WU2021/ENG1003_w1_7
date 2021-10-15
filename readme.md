@@ -27,7 +27,7 @@
 
 <!-- Background of Path Planning to aviation engineering -->
 ## Background of Path Planning to aviation engineering
-Path planning is a computational problem for a flight to travel from an origin airport to the destinated airport with a minimum cost and safest journey. It is a must for pilots to complete as crowded airspace needs a collaborative path planning in order to fully utilize the sky and provides a safe journey for passengers. Apart from the best use of airspace, path planning is also important for commercial airlines to reduce flight cost. Based on the cost index, a shortest flight cruising in less fuel consumed altitude can be planned, thus minimizing the flight cost. ![image](https://user-images.githubusercontent.com/90884213/137432843-3f7ef74a-e94b-4c7a-9a87-fb48a0d44119.png)
+Path planning is a computational problem for a flight to travel from an origin airport to the destinated airport with a minimum cost and safest journey. It is a must for pilots to complete as crowded airspace needs a collaborative path planning in order to fully utilize the sky and provides a safe journey for passengers. Apart from the best use of airspace, path planning is also important for commercial airlines to reduce flight cost. Based on the cost index, a shortest flight cruising in less fuel consumed altitude can be planned, thus minimizing the flight cost. 
 
 
 <!-- Theory of the Path planning Algorithm -->
