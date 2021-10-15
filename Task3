@@ -64,13 +64,6 @@ class AStarPlanner:
         self.Delta_P = 2
         
 
-        # meet the conditions:
-        #self.C_F * self.Delta_F +  self.C_T * self.Delta_T >=25
-        #self.C_F + self.C_T >=10
-        #self.Delta_F + self.Delta_T >=10
-        #self.Delta_F_A + self.Delta_T_A >=10
-        
-
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C + self.C_P * self.Delta_P
         print(self.costPerGrid)
         print("PolyU-AAE_group7 cost part1-> ", self.C_F * (self.Delta_F + self.Delta_F_A) )
