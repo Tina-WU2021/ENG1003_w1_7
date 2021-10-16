@@ -141,6 +141,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 
 
 # Task2_2
+**Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2**
 ## Methodology & Result:
 ### The 4 variables should meet the following condition:
 #### self.C_F * self.Delta_F +  self.C_T * self.Delta_T >=25
