@@ -12,8 +12,8 @@
     <li><a href="#Theory-of-the-Path-planning-Algorithm">Theory of the Path planning Algorithm</a></li>
     <li><a href="#Introduction-of-the-engineering-tools">Introduction of the engineering tools</a></li>
     <li><a href="#Task1">Task1</a></li>
-    <li><a href="#Task2.1">Task2.1</a></li>
-    <li><a href="#Task2.2">Task2.2</a></li>
+    <li><a href="#Task2_1">Task2_1</a></li>
+    <li><a href="#Task2_2">Task2_2</a></li>
     <li><a href="#Task3">Task3</a></li>
     <li><a href="#Task4">Task4</a></li>
     <li><a href="#Reflective-essay">Reflective essay</a></li>
