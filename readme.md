@@ -149,6 +149,13 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### self.Delta_F + self.Delta_T >=10
 #### self.Delta_F_A + self.Delta_T_A >=10
 
+#### To simplify to code:
+```
+        self.C_F #a
+        self.Delta_F = #b
+        self.C_T = #c
+        self.Delta_T = #d
+```
 #### First we add the following code:
 ```
         list1=[1000]
@@ -167,7 +174,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
         print (x)
 ```
 #### and get the result of 35
-#### ------------------------------------------------------------------------------------------------------add pictures
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__1.png)
 #### then we change the code into:
 ```
         list1=[1000]
@@ -182,8 +189,8 @@ GitHub is a web-based interface that uses Git, the open source version control s
                                 print(a,b,c,d)
 ```
 #### and then we get the following output:
-#### ------------------------------------------------------------------------------------------------------add pictures]
-#### when modify these sets of numbers, the final cost are the same
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__2.png)
+#### when modify these sets of numbers, the final cost remains the same, which is 5042.361107568211
 #### ------------------------------------------------------------------------------------------------------add pictures]
 
 ## ------------------------------------------------------------------Discussion(need to be written)
