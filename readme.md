@@ -108,7 +108,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
  ## The result: 
  
  
- ### ----------------------------------------------------------------------------------------------The .gif of Task1
+ ### ----------------------------------------------------------------------------------------------The .gif of Task1(Use the data from Polyu-A380)
  
  
 |Aircraft Model   |C_F     | Del_F   | C_T     |Del_T    |C_C      |Del_F_A  |Del_T_A  |Cost     |
@@ -119,7 +119,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 | PolyU-A383   | 1 | 2.5 | 5 | 5 | 10 | 0.5 | 0.1 | 5250.815 |
 
 
-### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost** 
+#### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost** 
 
 
 ## ----------------------------------------------------------Discussion(need to be written)
