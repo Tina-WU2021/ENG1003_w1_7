@@ -51,7 +51,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task1**
 ## Methodology:
 ### To complete the assigned challenge for our group:
-#### Adding the program photo of group 7
+#### ---------------------------------------------------------------------Adding the program photo of group 7
 #### Start and goal position:
 ```
 # start and goal position
@@ -192,7 +192,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 # Task3
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task3**
 ## Methodology:
-### The minus cost area(tkes 16 grid points):
+### The minus cost area(takes 16 grid points):
 #### We noticed that there are 直线 in our 结果, and since the minus cost area doesn't have 规定了的 shape, we decided to let the minus cost area 于 直线重合. Based on this idea, we 引入了两个参数; 代码的改变
 ## Result:
 ### ----------------------------------------------------------------------------------------------The .gif of Task3
