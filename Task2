@@ -47,10 +47,10 @@ class AStarPlanner:
         self.tc_y = tc_y
 
         ############you could modify the setup here for different aircraft models (based on the lecture slide) ##########################
-        self.C_F = 1
-        self.Delta_F = 1
-        self.C_T = 2
-        self.Delta_T = 5
+        self.C_F = 1 #a
+        self.Delta_F = 1 #b
+        self.C_T = 2 #c
+        self.Delta_T = 5 #d
         self.C_C = 10
         
         self.Delta_F_A = 2 # additional fuel
