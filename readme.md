@@ -122,8 +122,6 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost** 
 
 
-## ----------------------------------------------------------Discussion(need to be written)
-
 
 # Task2_1
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2**
@@ -193,7 +191,13 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### when modify these sets of numbers, the final cost remains the same, which is 5042.361107568211
 #### ------------------------------------------------------------------------------------------------------add pictures]
 
-## ------------------------------------------------------------------Discussion(need to be written)
+####There are multiple results towards this problem beacuse the calculation is based on the following line:
+```
+self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
+```
+###Discussion
+####The result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue. 
+
 
 
 
@@ -201,14 +205,17 @@ GitHub is a web-based interface that uses Git, the open source version control s
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task3**
 ## Methodology:
 ### The minus cost area(takes 16 grid points):
-#### We noticed that there are 直线 in our 结果, and since the minus cost area doesn't have 规定了的 shape, we decided to let the minus cost area 于 直线重合. Based on this idea, we 引入了两个参数; 代码的改变
+#### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
 ## Result:
 ### ----------------------------------------------------------------------------------------------The .gif of Task3
  
 
 
 # Reflective Essay
-## 1
+## 1 WU Xiaotao
+####  I have been learning C++ before this program started, so I have some basic knowledge of computer programming. For the tasks assigned to our group, I can understand what our final target should be. Based on the python code with comments clearly instructing what they are used for, I can briefly understand the structure as well as the ideal purpose of the code, thus, task 1 and task2.1 is of little difficulty to me. For task2.2 and task3, I worked with our teammates, sought help from the tutor and our classmates and finally figured out the solution. It’s of great satisfaction in actually dealing with a practical problem, I really enjoyed the process.
+####	Since I have been the group leader, I have gained a unique experience about how to collaborate with our teammates, separate our tasks and distribute them to the more suitable person in the team. I also get to know some people really talented in coding and solving such problems. I learnt a lot from them, and I look up to them. It is of great pleasure studying with them.
+
 ## 2
 ## 3
 ## 4
