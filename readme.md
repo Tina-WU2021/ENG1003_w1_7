@@ -191,12 +191,12 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### when modify these sets of numbers, the final cost remains the same, which is 5042.361107568211
 #### ------------------------------------------------------------------------------------------------------add pictures]
 
-####There are multiple results towards this problem beacuse the calculation is based on the following line:
+## Discussion
+#### The final cost is calculated based on the following line:
 ```
 self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ```
-###Discussion
-####The result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue. 
+#### Since the result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue. 
 
 
 
