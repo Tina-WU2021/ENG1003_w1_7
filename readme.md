@@ -216,7 +216,9 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ####  I have been learning C++ before this program started, so I have some basic knowledge of computer programming. For the tasks assigned to our group, I can understand what our final target should be. Based on the python code with comments clearly instructing what they are used for, I can briefly understand the structure as well as the ideal purpose of the code, thus, task 1 and task2.1 is of little difficulty to me. For task2.2 and task3, I worked with our teammates, sought help from the tutor and our classmates and finally figured out the solution. It’s of great satisfaction in actually dealing with a practical problem, I really enjoyed the process.
 ####	Since I have been the group leader, I have gained a unique experience about how to collaborate with our teammates, separate our tasks and distribute them to the more suitable person in the team. I also get to know some people really talented in coding and solving such problems. I learnt a lot from them, and I look up to them. It is of great pleasure studying with them.
 
-## 2
+## 2 Chan Hoi To
+####  Before this program, computer programming is totally new for me, and I have nearly no idea about how it works. But after communicating with our group leader and groupmates for task 1 to find the minimum cost for flight, I have a simple understanding of the principle of python code. This allows me to contribute to the following tasks. For the remaining tasks, my groupmates and I communicate to assign tasks for different members according to our talents, also collaborate on some challenging parts to achieve it like designing the area to reduce flight cost. To conclude, this experience is unique and beneficial for me as it allows me to gain computing knowledge as well as the ways to collaborate with classmates which is useful for my near future.
+
 ## 3
 ## 4
 ## 5
