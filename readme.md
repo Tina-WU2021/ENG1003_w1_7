@@ -12,8 +12,8 @@
     <li><a href="#Theory-of-the-Path-planning-Algorithm">Theory of the Path planning Algorithm</a></li>
     <li><a href="#Introduction-of-the-engineering-tools">Introduction of the engineering tools</a></li>
     <li><a href="#Task1">Task1</a></li>
-    <li><a href="#Task2.1">Task2.1</a></li>
-    <li><a href="#Task2.2">Task2.2</a></li>
+    <li><a href="#Task2_1">Task2_1</a></li>
+    <li><a href="#Task2_2">Task2_2</a></li>
     <li><a href="#Task3">Task3</a></li>
     <li><a href="#Task4">Task4</a></li>
     <li><a href="#Reflective-essay">Reflective essay</a></li>
@@ -51,7 +51,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task1**
 ## Methodology:
 ### To complete the assigned challenge for our group:
-#### Adding the program photo of group 7
+#### ---------------------------------------------------------------------Adding the program photo of group 7
 #### Start and goal position:
 ```
 # start and goal position
@@ -108,7 +108,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
  ## The result: 
  
  
- ### ----------------------------------------------------------------------------------------------The .gif of Task1
+ ### ----------------------------------------------------------------------------------------------The .gif of Task1(Use the data from Polyu-A380)
  
  
 |Aircraft Model   |C_F     | Del_F   | C_T     |Del_T    |C_C      |Del_F_A  |Del_T_A  |Cost     |
@@ -119,13 +119,11 @@ GitHub is a web-based interface that uses Git, the open source version control s
 | PolyU-A383   | 1 | 2.5 | 5 | 5 | 10 | 0.5 | 0.1 | 5250.815 |
 
 
-### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost** 
+#### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost
 
 
-## ----------------------------------------------------------Discussion(need to be written)
 
-
-# Task2.1
+# Task2_1
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2**
 ## Methodology & Result:
 ### The 2 variables should meet the following condition:
@@ -133,14 +131,22 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### -0.5*self.C_T + self.C_F <=-30
 #### 2*self.C_T + self.C_F >=20
 #### -4*self.C_T + self.C_F >=-220
-#### We solved this problem by drawing a graf by "某个网站"
-#### ------------------------------------------------------------------------------------------------------add pictures(that graf we draw)
-#### We tried the four corders of the graf, and get the following results:  （插入一个表格）
+#### We solved this problem by drawing a graf on symbolab
+#### in the following graf, x represents C_F; y represents C_T
+#### ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-10-21%20%E4%B8%8B%E5%8D%8810.03.03.png)
+#### We tried the four corders of the graf, and get the following results: 
+|C_F     | C_T     |Cost     |
+| :-----: | :-----: | :-----: |
+| 20 | 20 | 29504.16664 | 
+| 40 | 60 | 71438.69042 | 
+| 40 | 10 | 36493.25394 | 
+| 50 | 20 | 50471.42853 | 
 #### Eventually, we figured out the 2 variables that would lead to the minimum final cost, which is (20,20)
 
 
 
-# Task2.2
+# Task2_2
+**Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2**
 ## Methodology & Result:
 ### The 4 variables should meet the following condition:
 #### self.C_F * self.Delta_F +  self.C_T * self.Delta_T >=25
@@ -148,6 +154,13 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### self.Delta_F + self.Delta_T >=10
 #### self.Delta_F_A + self.Delta_T_A >=10
 
+#### To simplify to code:
+```
+        self.C_F #a
+        self.Delta_F = #b
+        self.C_T = #c
+        self.Delta_T = #d
+```
 #### First we add the following code:
 ```
         list1=[1000]
@@ -165,8 +178,8 @@ GitHub is a web-based interface that uses Git, the open source version control s
                 x=list1[i]
         print (x)
 ```
-#### and get the result of 35
-#### ------------------------------------------------------------------------------------------------------add pictures
+#### and get the result of x=35
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__1.png)
 #### then we change the code into:
 ```
         list1=[1000]
@@ -181,26 +194,35 @@ GitHub is a web-based interface that uses Git, the open source version control s
                                 print(a,b,c,d)
 ```
 #### and then we get the following output:
-#### ------------------------------------------------------------------------------------------------------add pictures]
-#### when modify these sets of numbers, the final cost are the same
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__2.png)
+#### when modify these sets of numbers, the final cost remains the same, which is 5042.361107568211
 #### ------------------------------------------------------------------------------------------------------add pictures]
 
-## ------------------------------------------------------------------Discussion(need to be written)
+## Discussion
+#### The final cost is calculated based on the following line:
+```
+self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
+```
+#### Since the result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue. 
+
 
 
 
 # Task3
 **Click the link to view the original code: https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task3**
 ## Methodology:
-### The minus cost area(tkes 16 grid points):
-#### We noticed that there are 直线 in our 结果, and since the minus cost area doesn't have 规定了的 shape, we decided to let the minus cost area 于 直线重合. Based on this idea, we 引入了两个参数; 代码的改变
+### The minus cost area(takes 16 grid points):
+#### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
 ## Result:
 ### ----------------------------------------------------------------------------------------------The .gif of Task3
  
 
 
 # Reflective Essay
-## 1
+## 1 WU Xiaotao
+####  I have been learning C++ before this program started, so I have some basic knowledge of computer programming. For the tasks assigned to our group, I can understand what our final target should be. Based on the python code with comments clearly instructing what they are used for, I can briefly understand the structure as well as the ideal purpose of the code, thus, task 1 and task2.1 is of little difficulty to me. For task2.2 and task3, I worked with our teammates, sought help from the tutor and our classmates and finally figured out the solution. It’s of great satisfaction in actually dealing with a practical problem, I really enjoyed the process.
+####	Since I have been the group leader, I have gained a unique experience about how to collaborate with our teammates, separate our tasks and distribute them to the more suitable person in the team. I also get to know some people really talented in coding and solving such problems. I learnt a lot from them, and I look up to them. It is of great pleasure studying with them.
+
 ## 2
 ## 3
 ## 4
