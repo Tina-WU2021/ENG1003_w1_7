@@ -231,7 +231,8 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ## 3 Wang Li
 ####  After take the class,i learned what the python is and the fundamental way to use the python.Besides,i know what is the github is designed for.what’s more,although i faced many difficulty like download python and the way to use python, but the class i take raised my interest on AAE and programming,making me want to learn what is the meaning of every symbol in the code which is given by the teacher.Most importantly,i learned the importance of the teamwork ,it is impossible to finish the hole work by myself,but with everyone’s great effort,we make it.In this special experience,i also learned that all the participants should participate in activities actively,to make the team stronger and have ability to finish the task.
 
-## 4
+## 4 Tsang Kai Lok
+#### Before joining this freshman seminar project, I have never learned about computer programming. So, in the beginning, I think this path planning algorithm will be a challenging task for me. But after communicating with my groupmates and group leader, they taught me some basic concepts about python, we cooperate to finish task 1 for finding the minimum cost for flight. For the following tasks, the group leader assigned me to finish task 2.1. In this task, I need to use four equations to find two unknowns by using the graphical method. In addition, we also collaborate on some additional tasks which are challenging. To conclude, I feel grateful to cooperate with my groupmates and this project allows me to understand more about computer programming especially python which is useful for my future career path. 
 ## 5
 
 
