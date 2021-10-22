@@ -119,7 +119,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 | PolyU-A383   | 1 | 2.5 | 5 | 5 | 10 | 0.5 | 0.1 | 5250.815 |
 
 
-#### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost** 
+#### Among all 4 aircrafts, Polyu-A380 achieved the minimum cost
 
 
 
@@ -131,10 +131,17 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### -0.5*self.C_T + self.C_F <=-30
 #### 2*self.C_T + self.C_F >=20
 #### -4*self.C_T + self.C_F >=-220
-#### We solved this problem by drawing a graf by "某个网站"
-#### ------------------------------------------------------------------------------------------------------add pictures(that graf we draw)
-#### We tried the four corders of the graf, and get the following results:  （插入一个表格）
-#### Eventually, we figured out the 2 variables that would lead to the minimum final cost, which is (20,20)
+#### We solved this problem by drawing a graf on symbolab
+#### x represents C_F; y represents C_T in the following graf
+#### ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96%202021-10-21%20%E4%B8%8B%E5%8D%8810.03.03.png)
+#### We tried the set of values of the four corners, and get the following results: 
+|C_F     | C_T     |Cost     |
+| :-----: | :-----: | :-----: |
+| 20 | 20 | 29504.16664 | 
+| 40 | 60 | 71438.69042 | 
+| 40 | 10 | 36493.25394 |
+| 50 | 20 | 50471.42853 |
+#### Eventually, we figured out the set of variables that would lead to the minimum final cost, which is (20,20)
 
 
 
@@ -171,7 +178,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
                 x=list1[i]
         print (x)
 ```
-#### and get the result of 35
+#### and get the result of x=35
 ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__1.png)
 #### then we change the code into:
 ```
@@ -214,7 +221,8 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 # Reflective Essay
 ## 1 WU Xiaotao
 ####  I have been learning C++ before this program started, so I have some basic knowledge of computer programming. For the tasks assigned to our group, I can understand what our final target should be. Based on the python code with comments clearly instructing what they are used for, I can briefly understand the structure as well as the ideal purpose of the code, thus, task 1 and task2.1 is of little difficulty to me. For task2.2 and task3, I worked with our teammates, sought help from the tutor and our classmates and finally figured out the solution. It’s of great satisfaction in actually dealing with a practical problem, I really enjoyed the process.
-####	Since I have been the group leader, I have gained a unique experience about how to collaborate with our teammates, separate our tasks and distribute them to the more suitable person in the team. I also get to know some people really talented in coding and solving such problems. I learnt a lot from them, and I look up to them. It is of great pleasure studying with them.
+#### Since I have been the group leader, I have gained a unique experience about how to collaborate with our teammates, separate our tasks and distribute them to the more suitable person in the team. I also get to know some classmeates who are really talented in coding and solving problems. I learnt a lot from them, and I look up to them. It is of great pleasure studying with them. 
+#### Although we have faced many problems during the process, we managed to solve them through multiple attempts. After joining this program, I got a deeper understanding of the idea lying under the codes, and of the applicable thinking methods towards a certain practical problem. Besides, I get to know Github, and have learnt how to write a readme page, I think I would get a chance to use them in the future. GIthub is a perfect online community from which I have learnt and can learn various skills.
 
 ## 2 Chan Hoi To
 ####  Before this program, computer programming is totally new for me, and I have nearly no idea about how it works. But after communicating with our group leader and groupmates for task 1 to find the minimum cost for flight, I have a simple understanding of the principle of python code. This allows me to contribute to the following tasks. For the remaining tasks, my groupmates and I communicate to assign tasks for different members according to our talents, also collaborate on some challenging parts to achieve it like designing the area to reduce flight cost. To conclude, this experience is unique and beneficial for me as it allows me to gain computing knowledge as well as the ways to collaborate with classmates which is useful for my near future.
