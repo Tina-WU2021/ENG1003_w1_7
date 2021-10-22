@@ -47,16 +47,48 @@ class AStarPlanner:
         self.tc_y = tc_y
 
         ############you could modify the setup here for different aircraft models (based on the lecture slide) ##########################
-        self.C_F = 1
-        self.Delta_F = 1
-        self.C_T = 2
-        self.Delta_T = 5
+        self.C_F = 1 #a
+        self.Delta_F = 1 #b
+        self.C_T = 2 #c
+        self.Delta_T = 5 #d
         self.C_C = 10
         
         self.Delta_F_A = 2 # additional fuel
-        self.Delta_T_A = 5 # additional time 
+        self.Delta_T_A = 5 # additional time
         
         
+        # 2 variables should meet these conditions:
+        #self.C_T - self.C_F <=30
+        #-0.5*self.C_T + self.C_F <=-30
+        #2*self.C_T + self.C_F >=20
+        #-4*self.C_T + self.C_F >=-220
+        
+        
+        # 4 variables should meet these conditions:
+        #self.C_F * self.Delta_F +  self.C_T * self.Delta_T >=25
+        #self.C_F + self.C_T >=10
+        #self.Delta_F + self.Delta_T >=10
+        #self.Delta_F_A + self.Delta_T_A >=10
+     
+        list1=[1000]
+        for a in range(20):
+            for b in range(20):
+                for c in range(20):
+                    for d in range(20):
+                        if b*c+a*d>=25 and a+b>=10 and c+d>=10:
+                            result=b*c+a*d+10
+                            list1.append(result)
+                            if(result==35):
+                                print(a,b,c,d)
+               
+        
+        x=10000000
+        for i in range(len(list1)):
+            if x>list1[i]:
+                x=list1[i]
+        print (x)
+        
+
 
         self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 
