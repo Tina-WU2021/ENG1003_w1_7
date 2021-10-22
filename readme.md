@@ -23,6 +23,7 @@
 
 
 
+
 <!-- Background of Path Planning to aviation engineering -->
 ## Background of Path Planning to aviation engineering
 Path planning is a computational problem for a flight to travel from an origin airport to the destinated airport with a minimum cost and safest journey. It is a must for pilots to complete as crowded airspace needs a collaborative path planning in order to fully utilize the sky and provides a safe journey for passengers. Apart from the best use of airspace, path planning is also important for commercial airlines to reduce flight cost. Based on the cost index, a shortest flight cruising in less fuel consumed altitude can be planned, thus minimizing the flight cost. 
@@ -227,7 +228,9 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ## 2 Chan Hoi To
 ####  Before this program, computer programming is totally new for me, and I have nearly no idea about how it works. But after communicating with our group leader and groupmates for task 1 to find the minimum cost for flight, I have a simple understanding of the principle of python code. This allows me to contribute to the following tasks. For the remaining tasks, my groupmates and I communicate to assign tasks for different members according to our talents, also collaborate on some challenging parts to achieve it like designing the area to reduce flight cost. To conclude, this experience is unique and beneficial for me as it allows me to gain computing knowledge as well as the ways to collaborate with classmates which is useful for my near future.
 
-## 3
+## 3 Wang Li
+####  After take the class,i learned what the python is and the fundamental way to use the python.Besides,i know what is the github is designed for.what’s more,although i faced many difficulty like download python and the way to use python, but the class i take raised my interest on AAE and programming,making me want to learn what is the meaning of every symbol in the code which is given by the teacher.Most importantly,i learned the importance of the teamwork ,it is impossible to finish the hole work by myself,but with everyone’s great effort,we make it.In this special experience,i also learned that all the participants should participate in activities actively,to make the team stronger and have ability to finish the task.
+
 ## 4
 ## 5
 
