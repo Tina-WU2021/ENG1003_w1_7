@@ -233,7 +233,8 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 
 ## 4 Tsang Kai Lok
 #### Before joining this freshman seminar project, I have never learned about computer programming. So, in the beginning, I think this path planning algorithm will be a challenging task for me. But after communicating with my groupmates and group leader, they taught me some basic concepts about python, we cooperate to finish task 1 for finding the minimum cost for flight. For the following tasks, the group leader assigned me to finish task 2.1. In this task, I need to use four equations to find two unknowns by using the graphical method. In addition, we also collaborate on some additional tasks which are challenging. To conclude, I feel grateful to cooperate with my groupmates and this project allows me to understand more about computer programming especially python which is useful for my future career path. 
-## 5
+## 5 HO Hin Yeung
+####  Before taking this class, I didn’t learn any programming language. After attending this class, I have learned how to code in python and how to use GitHub. I found using GitHub to collaborate with others is convenient because we can finish jobs within our branches. After that, we can easily merge our changes into the main branch after checking. Although I faced some difficulties throughout the project, I got help from my groupmates and finally solved the problem. I felt glad to finish the project together with my groupmates.  I believe this experience will be helpful in the future when I have chances to cooperate with people.
 
 
 
