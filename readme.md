@@ -200,7 +200,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 ```
 #### and then we get the following output:
 ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2.2.png)
-#### when modify these two sets of numbers, the final cost remains the same, which is 3035.0045430196055
+#### when modify these two sets of numbers, the final cost remains the same, which is 5042.361107568212
 
 
 ## Discussion
