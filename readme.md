@@ -107,8 +107,8 @@ GitHub is a web-based interface that uses Git, the open source version control s
  ```
   
  ## The result: 
+ <img width="570" height="450" src="https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%201_.gif"/> 
  
- ![This is a gif](https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%201_.gif)
  
 |Aircraft Model   |C_F     | Del_F   | C_T     |Del_T    |C_C      |Del_F_A  |Del_T_A  |Cost     |
 | :-----:          | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |  :-----:  |
@@ -201,7 +201,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
 #### and then we get the following output:
 ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2.2.png)
 #### when modify these two sets of numbers, the final cost remains the same, which is 3035.0045430196055
-#### ------------------------------------------------------------------------------------------------------add pictures]
+
 
 ## Discussion
 #### The final cost is calculated based on the following line:
@@ -220,7 +220,8 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 #### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
 ## Result:
 
- ![This is a gif](https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%203.gif)
+ <img width="570" height="450" src="https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%203.gif"/> 
+
  
 
 
