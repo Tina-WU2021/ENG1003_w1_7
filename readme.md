@@ -262,11 +262,11 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 #### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
 #### To modify the code: The strategy for setting up minus time area are similar to the fule consuming area and the time consuming area, so we modified to code accordingly.
 #### Some code we modified:
-#### for initializing:
+#### for initializing(around line 25):
 ```
 def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y, mc_x, mc_y):
 ```
-#### for calculating the final cost:
+#### for calculating the final cost(around line 60):
 ```
         self.C_P = -2
         self.Delta_P = 2
