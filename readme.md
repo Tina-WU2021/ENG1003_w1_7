@@ -108,9 +108,7 @@ GitHub is a web-based interface that uses Git, the open source version control s
   
  ## The result: 
  
- 
- ### ----------------------------------------------------------------------------------------------The .gif of Task1(Use the data from Polyu-A380)
- 
+ ![This is a gif](https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%201_.gif)
  
 |Aircraft Model   |C_F     | Del_F   | C_T     |Del_T    |C_C      |Del_F_A  |Del_T_A  |Cost     |
 | :-----:          | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |  :-----:  |
@@ -161,26 +159,32 @@ GitHub is a web-based interface that uses Git, the open source version control s
         self.Delta_F = #b
         self.C_T = #c
         self.Delta_T = #d
+        self.Delta_F_A =  #e
+        self.Delta_T_A =  #f
 ```
 #### First we add the following code:
 ```
+        
         list1=[1000]
-        for a in range(20):
-            for b in range(20):
-                for c in range(20):
-                    for d in range(20):
-                        if b*c+a*d>=25 and a+b>=10 and c+d>=10:
-                            result=b*c+a*d+10
-                            list1.append(result)
-                                       
+        for a in range(1,20):
+            for b in range(1,20):
+                for c in range(1,20):
+                    for d in range(1,20):
+                        for e in range(1,20): 
+                            for f in range(1,20):
+                                if a*b+c*d>=25 and a+c>=10 and b+d>=10 and e+f>=10:
+                                    result=a*(b+e)+c*(d+f)+10
+                                    list1.append(result)
+                                   
+        
         x=10000000
         for i in range(len(list1)):
             if x>list1[i]:
                 x=list1[i]
         print (x)
 ```
-#### and get the result of x=35
-![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__1.png)
+#### and get the result of x=53
+
 #### then we change the code into:
 ```
         list1=[1000]
@@ -191,12 +195,12 @@ GitHub is a web-based interface that uses Git, the open source version control s
                         if b*c+a*d>=25 and a+b>=10 and c+d>=10:
                             result=b*c+a*d+10
                             list1.append(result)
-                            if(result==35):
-                                print(a,b,c,d)
+                            if(result==53):
+                                print(a,b,c,d,e,f)
 ```
 #### and then we get the following output:
-![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__2.png)
-#### when modify these sets of numbers, the final cost remains the same, which is 5042.361107568211
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2.2.png)
+#### when modify these two sets of numbers, the final cost remains the same, which is 3035.0045430196055
 #### ------------------------------------------------------------------------------------------------------add pictures]
 
 ## Discussion
@@ -215,7 +219,8 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ### The minus cost area(takes 16 grid points):
 #### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
 ## Result:
-### ----------------------------------------------------------------------------------------------The .gif of Task3
+
+ ![This is a gif](https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%203.gif)
  
 
 
