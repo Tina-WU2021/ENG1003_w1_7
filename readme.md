@@ -162,7 +162,43 @@ GitHub is a web-based interface that uses Git, the open source version control s
         self.Delta_F_A =  #e
         self.Delta_T_A =  #f
 ```
-#### First we add the following code:
+
+
+#### At first we write the following code:
+```
+ list1=[1000]
+        for a in range(1,20):
+            for b in range(1,20):
+                for c in range(1,20):
+                    for d in range(1,20):
+                                if a*b+c*d>=25 and a+c>=10 and b+d>=10:
+                                    result=a*b+c*d+10
+                                    list1.append(result)
+                                   
+        
+        x=10000000
+        for i in range(len(list1)):
+            if x>list1[i]:
+                x=list1[i]
+        print (x)
+
+```
+#### And get the result of x=35 and the corresponding sets of a, b, c and d
+![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2_2__2.png)
+
+#### The final cost is calculated based on the following line:
+```
+self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
+```
+#### We conlcude that the result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue.
+
+#### But then we discovered:
+```
+        self.Delta_F_A =  #e
+        self.Delta_T_A =  #f
+ ```
+#### These two variables whould also effect the final cost.
+#### So we modified the code to:
 ```
         
         list1=[1000]
@@ -200,15 +236,21 @@ GitHub is a web-based interface that uses Git, the open source version control s
 ```
 #### and then we get the following output:
 ![This is an image](https://github.com/WxtTina/ENG1003_w1_7/blob/main/Task2.2.png)
-#### when modify these two sets of numbers, the final cost remains the same, which is 5042.361107568212
-
-
-## Discussion
-#### The final cost is calculated based on the following line:
+#### when modify these two sets of numbers, 
+#### the set 1 16 9 1 9 1 will get the final cost of 5042.361107568212
+#### the set 9 1 1 16 1 9 will get the final cost of 5023.340905032679
+#### So the final result would be:
 ```
-self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
+        self.C_F = 9 #a
+        self.Delta_F = 1 #b
+        self.C_T = 1 #c
+        self.Delta_T = 16 #d
+        self.C_C = 10
+        
+        self.Delta_F_A = 1 # additional fuel #e
+        self.Delta_T_A = 9
 ```
-#### Since the result  self.costPerGrid  remains the same when  self.C_F  and  self.Delta_F  exchange their value, so there are multipule results towards this issue. 
+
 
 
 
@@ -218,6 +260,27 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
 ## Methodology:
 ### The minus cost area(takes 16 grid points):
 #### We noticed that there are straight line in our result, and since the minus cost area doesn't have a regulated shape, we decided to base the minus cost area base on the original result, which means that we would let the minus cost area and the original path coincide.
+#### To modify the code: The strategy for setting up minus time area are similar to the fule consuming area and the time consuming area, so we modified to code accordingly.
+#### Some code we modified:
+#### for initializing:
+```
+def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y, mc_x, mc_y):
+```
+#### for calculating the final cost:
+```
+        self.C_P = -2
+        self.Delta_P = 2
+        self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C + self.C_P * self.Delta_P
+```
+#### add minus consuming area:
+```
+                # add minus consuming area
+                if self.calc_grid_position(node.x, self.min_x) in self.mc_x:
+                    if self.calc_grid_position(node.y, self.min_y) in self.mc_y:
+                        # print("minus time consuming area!!")
+                        node.cost = node.cost + self.C_P * self.Delta_P * self.motion [i][2]
+```
+
 ## Result:
 
  <img width="570" height="450" src="https://github.com/WxtTina/ENG1003_w1_7/blob/main/task%203.gif"/> 
