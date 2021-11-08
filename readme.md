@@ -197,7 +197,7 @@ self.costPerGrid = self.C_F * self.Delta_F + self.C_T * self.Delta_T + self.C_C
         self.Delta_F_A =  #e
         self.Delta_T_A =  #f
  ```
-#### These two variables whould also effect the final cost.
+#### These two variables would also effect the final cost.
 #### So we modified the code to:
 ```
         
