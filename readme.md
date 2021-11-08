@@ -174,7 +174,8 @@ GitHub is a web-based interface that uses Git, the open source version control s
                                 if a*b+c*d>=25 and a+c>=10 and b+d>=10:
                                     result=a*b+c*d+10
                                     list1.append(result)
-                                   
+                                    if(result==53):
+                                      print(a,b,c,d)
         
         x=10000000
         for i in range(len(list1)):
