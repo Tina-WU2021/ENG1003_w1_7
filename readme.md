@@ -2,6 +2,9 @@
 <p align="center">
 
   <h3 align="center">PolyU ENG1003 AAE Freshman Project_Group7</h3>
+  
+  #### Group video presenation:
+  https://youtu.be/DWTJENwRcXo
 
 
 <!-- Overview -->
